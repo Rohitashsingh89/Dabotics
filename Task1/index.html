@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohitash Singh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Rohitash.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container header">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i id="menuIcon" class="fa fa-bars menuIcon"></i>
+            </label>
+            <span class="head">
+                <img src="./img/Rohitash.png" class="logoimg" alt="This is my image">
+                <label for="logo" class="logo">Rohitash Singh</label>
+            </span>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- hero section  -->
+    <div class="cotainer" id="home">
+        <div class="hero">
+            <div class="center">
+                <img src="./img/Rohitash.png" class="heroimg" alt="This is my image">
+                <h1>HEY, I'M Rohitash Singh</h1>
+                <p>A Full Stack Web Developer building the Full stack web Applications that leads to the success of the
+                    overall quality product.</p>
+                <a href="#projects"><button class="btn">Contact Me</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- about section  -->
+
+    <div class="section section-tabs" id="skills">
+        <div class="container" style="margin-bottom: 10vh;">
+            <div class="projectheader text-center color-white mb-2" style="padding-top: 20px;">
+                <h2>Expertise</h2>
+                <p>Here you will find some of the Expertise technologies.</p>
+            </div>
+            <div class="row skill skillcontainer">
+                <div class="col skill1 col-xl-4 col-md-4 border p-4">
+                    <h1><img src="img/computer.png" class="logoimg" alt="skill img" /> Software Development</h1>
+                    <div class="box">
+                        <p><i>&lt;h3&gt;</i></p>
+                        <p class="pl-2 border-left ml-3 text"><i>Experienced in Data Structures and Algorithms (DSA)
+                                with proficiency in both functional and object-oriented programming: Java, Python, and
+                                JavaScript.</i></p>
+                        <p><i>&lt;/h3&gt;</i></p>
+                    </div>
+                </div>
+                <div class="col skill2 col-xl-4 col-md-4 border p-4">
+                    <h1> <img src="img/frontend.png" class="logoimg" alt="skill img" /> Frontend Development</h1>
+                    <div class="box">
+                        <p><i>&lt;h3&gt;</i></p>
+                        <p class="pl-2 border-left ml-3 fw-bold"><i>Passionate Frontend Developer with over 2.5+ years
+                                of freelancing experience, specializing in HTML, CSS, JavaScript, React, and Angular.js
+                                frameworks.</i></p>
+                        <p><i>&lt;/h3&gt;</i></p>
+                    </div>
+                </div>
+                <div class="col skill3 col-xl-4 col-md-4 border p-4">
+                    <h1><img src="img/backend.png" class="logoimg" alt="skill img" /> Backend Development</h1>
+                    <div class="box">
+                        <p><i>&lt;h3&gt;</i></p>
+                        <p class="pl-2 border-left ml-3"><i>Skilled in Full Stack Web Development with expertise in
+                                backend technologies, including Node.js, Django, Flask, PHP, and Spring Boot.</i></p>
+                        <p><i>&lt;/h3&gt;</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="divider">
+
+    <section>
+
+        <div class="container" id="projects">
+            <div class="projectheader text-center color-white mb-2">
+                <h2>PROJECTS</h2>
+                <p>Here you will find some of the personal and clients projects that I have created.</p>
+            </div>
+            <div class="projectcontainer">
+                <div class="col">
+                    <a href="https://rohitashsingh.vercel.app/">
+                        <img src="https://user-images.githubusercontent.com/93479842/257519429-1f252104-7750-4eb1-ab1b-a9d337922fbe.png"
+                            alt="project img">
+                        <h1>My React.js Portfolio Website</h1>
+                        <button class="demobtn">Demo</button>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://www.stackmern.me">
+                        <img src="https://user-images.githubusercontent.com/93479842/256709667-96b2caf9-b27a-4432-b65f-bee95ee4278a.png"
+                            alt="project img">
+                        <h1>Blogging System using Node.js</h1>
+                        <button class="demobtn">Demo</button>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <img src="https://user-images.githubusercontent.com/93479842/256372611-1a33dd23-0461-459c-9a9f-fa59160ed37a.png"
+                            alt="project img">
+                        <h1>Random Quote generator Web Application</h1>
+                        <button class="demobtn">Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section  -->
+
+    <hr class="divider">
+
+    <div class="conteiner contact" id="contact">
+        <div class="text-center">
+            <h2>CONTACT</h2>
+            <p>Feel free to Contact me..</p>
+        </div>
+        <div class="formcontainer">
+            <div class="contactform">
+                <form action="">
+                    <label for="name">Name*</label>
+                    <input type="text" class="inputbox" name="name" id="name" placeholder="Name..." required />
+                    <label for="email">email*</label>
+                    <input type="email" class="inputbox" name="email" id="email" placeholder="Email..." required />
+                    <label for="msg">Message*</label>
+                    <textarea name="msg" class="inputbox" id="msg" cols="30" rows="10" placeholder="Message..."
+                        required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="footercontainer">
+            <div class="footerleft">
+                <img src="./img/Rohitash.png" class="logoimg" alt="This is my image">
+
+                <h2>Rohitash Singh</h2>
+                <p>A Full Stack Web Developer building the Full stack web Applications that leads to the success of the overall quality product.</p>
+            </div>
+            <div class="footerpages">
+                <h2>PAGES</h2>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#skills">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footerright">
+                <h2>SOCIAL</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/ras-bihari-965672232/" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.github.com/rohitashsingh89" target="_blank" rel="noopener noreferrer"><i
+                                class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/rohitashthakur89" target="_blank"
+                            rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Copyright &copy; not reserved!!</p>
+        </div>
+    </footer>
+</body>
+
+</html>
